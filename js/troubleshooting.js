@@ -92,3 +92,26 @@ b = ${b}
 c = ${c}
 d = ${d}
 e = ${e}`)
+
+
+
+// 	testGroup: "b",
+// 	greeting,
+// 	birthYear,
+// 	thisYear,
+// 	firstName,
+// 	lastName,
+// 	fullName,
+// 	age
+// }
+
+
+const birthYear = 1990;
+const thisYear = 2022;
+const firstName = 'Malcolm';
+const lastName = 'Smalls';
+const fullName = `${firstName} ${lastName}`
+const age = thisYear - birthYear
+const greeting = `Hello, my name is ${fullName} and I am ${age} years old.`
+
+console.log(greeting)
