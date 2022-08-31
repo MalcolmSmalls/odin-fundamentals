@@ -5,36 +5,36 @@
  * Be sure to fix it in the spirit of the code, do not hard code the result.
  */
 
- function troubleshooting() {
-	const a = 1;
-	const b = 1;
+//  function troubleshooting() {
+// 	const a = 1;
+// 	const b = 1;
 
-	let result;
+// 	let result;
 
-	// Edit between these lines
-	// =================================
-	result = a + b;
+// 	// Edit between these lines
+// 	// =================================
+// 	result = a + b;
 
-	// =================================
+// 	// =================================
 
-	return result;
-}
+// 	return result;
+// }
 
 
 // const abTroubleshoot = require("./troubleshooting");
 
-const result = troubleshooting();
+// const result = troubleshooting();
 
 
-if(result === 2) {
-	console.log("Congrats! You got the correct answer");
-} else if(typeof result === 'number') {
-	console.log(`You returned the number ${result}, the result should be the number 2`);
-} else {
-	console.log(`You returned string "${result}", the result should be the number 2`);
-}
+// if(result === 2) {
+// 	console.log("Congrats! You got the correct answer");
+// } else if(typeof result === 'number') {
+// 	console.log(`You returned the number ${result}, the result should be the number 2`);
+// } else {
+// 	console.log(`You returned string "${result}", the result should be the number 2`);
+// }
 
-result
+// result
 
 
 
@@ -81,17 +81,17 @@ result
  * e = the sum of the previous four variables
  */
 
-const a = 1+8
-const b = 22*3
-const c = 5%4
-const d = a - 17
-const e = a + b + c + d
+// const a = 1+8
+// const b = 22*3
+// const c = 5%4
+// const d = a - 17
+// const e = a + b + c + d
 
-console.log(`a = ${a}
-b = ${b}
-c = ${c}
-d = ${d}
-e = ${e}`)
+// console.log(`a = ${a}
+// b = ${b}
+// c = ${c}
+// d = ${d}
+// e = ${e}`)
 
 
 
@@ -106,15 +106,15 @@ e = ${e}`)
 // }
 
 
-const birthYear = 1990;
-const thisYear = 2022;
-const firstName = 'Malcolm';
-const lastName = 'Smalls';
-const fullName = `${firstName} ${lastName}`
-const age = thisYear - birthYear
-const greeting = `Hello, my name is ${fullName} and I am ${age} years old.`
+// const birthYear = 1990;
+// const thisYear = 2022;
+// const firstName = 'Malcolm';
+// const lastName = 'Smalls';
+// const fullName = `${firstName} ${lastName}`
+// const age = thisYear - birthYear
+// const greeting = `Hello, my name is ${fullName} and I am ${age} years old.`
 
-console.log(greeting)
+// console.log(greeting)
 
 
 
@@ -123,4 +123,12 @@ const add7 = num => num+7
 function multiply(num1,num2){
 	return num1 * num2
 }
+
+const capitalize = str => {
+	let firstLetter = str.substring(0,1).toUpperCase()
+	let restStr = str.substring(1).toLowerCase()
+	return firstLetter+restStr
+}
+
+console.log(capitalize('WHIP'))
 
