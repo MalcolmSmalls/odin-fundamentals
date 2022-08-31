@@ -115,3 +115,12 @@ const age = thisYear - birthYear
 const greeting = `Hello, my name is ${fullName} and I am ${age} years old.`
 
 console.log(greeting)
+
+
+
+const add7 = num => num+7
+
+function multiply(num1,num2){
+	return num1 * num2
+}
+
