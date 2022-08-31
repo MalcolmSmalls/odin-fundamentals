@@ -120,9 +120,13 @@
 
 const add7 = num => num+7
 
+console.log(add7(0))
+
 function multiply(num1,num2){
 	return num1 * num2
 }
+
+console.log(multiply(2,2))
 
 const capitalize = str => {
 	let firstLetter = str.substring(0,1).toUpperCase()
@@ -131,4 +135,8 @@ const capitalize = str => {
 }
 
 console.log(capitalize('WHIP'))
+
+const lastLetter = str => str.slice(-1)
+
+console.log(lastLetter('dog'))
 
